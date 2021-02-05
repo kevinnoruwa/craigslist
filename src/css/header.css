@@ -1,0 +1,71 @@
+
+header {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+  
+
+
+}
+
+
+header  .fa {
+ margin-left: 20px;
+
+}
+
+header  .left-menu {
+
+    display: flex;
+
+}
+
+
+header  .left-menu .logo {
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    display: flex;
+
+}
+
+header  .left-menu  .city {
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    display: flex;
+
+}
+
+
+
+header  .right-menu {
+  display: flex;
+
+}
+
+header  .right-menu  .user-img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  
+  }
+
+  header  .right-menu  .user-dropdown{
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    display: flex;
+  
+  }
+
+
+  
+  header  .right-menu  .post-btn {
+    background: #4DA8DA;
+    padding: 15px 20px;
+    font-weight: 300;
+    color: #fff;
+  
+  }

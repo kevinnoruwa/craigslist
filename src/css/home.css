@@ -1,0 +1,92 @@
+.home #links {
+background: rgb(32, 32, 32,.9);
+grid-template-columns: repeat(7, 1fr);
+grid-gap: 20px;
+width: 100%;
+overflow-x: scroll;
+padding: 20px;
+fontweigth: 300;
+margin: 0 0 0.5rem;
+display: grid; 
+font-size:  .8rem;
+
+}
+
+.home h1 {
+    text-transform: capitalize;
+    text-align : center ;
+    color: #fff;
+    font-size: 3rem;
+    margin: 0 0 30px;
+    padding: 100px 0px;
+}
+
+.home .link {
+transition: all ease-in-out .5s ;
+    
+    }
+.home .link:hover {
+    color: red ;
+    
+    }
+
+.categories .group-links{
+        grid-template-columns: repeat(2, 1fr);
+        color: blue;
+    display: grid;  
+              
+}
+
+.categories .group-links:hover{
+    color: red;
+}
+.title {
+    font-size: 1.3rem;
+   text-align: center;
+}
+
+#trending {
+    margin: 80px 0 0;
+    max-width: 900px;
+    margin: 20px auto
+}
+
+
+#trending .search {
+    border: 1px solid black;
+    outline: none;
+    width: 100%;
+    font-size: 2rem;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.title {
+    color: #fff;
+    text-align: center ;
+    psdding: 20px;
+    text-transform: uppercase;
+    padding:50px 0 20px;
+}
+.trending-tags {
+  text-align : center ;
+    
+}
+
+.trending-tags  div {
+    transition : all ease-in-out .5s;
+    display: inline-block;
+    border: 1px  solid #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 45px
+    
+}
+
+.trending-tags  div:hover {
+    background: black;  
+    
+}
+
+
+

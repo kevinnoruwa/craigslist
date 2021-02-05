@@ -1,0 +1,140 @@
+.listings{
+    background: #fff;
+    color: #1b1b1b
+}
+.listings label {
+    color: #000;
+    display: block;
+    margin: 0 0 .8rem;
+}
+
+
+
+.listings  select {
+    background: #fff;
+    font-size: 1.3rem;
+    min-wisth: 100px;
+    padding: 2px  20px;
+    border: 2px solid #ADBED2;
+    color: #1b1b1b;
+    margin:  0 20px 0  0
+    
+    
+}
+
+.listings .container  {
+    padding: 0 15px;
+   
+
+}
+
+.listings .container .filter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 50px 0;
+
+}
+
+
+
+.listings  .button {
+
+   margin: 0 10px 0;
+   background: pink;
+   padding: 10px;
+}
+
+.listings  .primary-btn {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin: 0 10px 0;
+  padding: 10px 20px;
+  background: #ADBED2;
+  position: relative;
+  top: 30px;
+    
+
+
+}
+
+
+
+#list-view {
+    background: #f8f8f8;
+    padding: 20px 0;
+}
+
+
+#list-view .chnage-view {
+    display: flex;
+    flex-direction: row
+}
+
+
+#list-view .white-box {
+    background: #fff;
+    padding: 20px;
+    
+}
+
+
+
+.all-items  {
+    display: grid ;
+    grid-template-columns: repeat(4, 1fr );
+    padding: 20px 0;
+    grid-gap: 20px 20px;
+    
+  
+}
+
+
+
+.all-items  .item {
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 3px rgba(0,0,0,0.1);
+
+}
+
+
+.all-items  .item  .image {
+   background: center center no-repeat url(https://i.insider.com/578e9e4588e4a77c708b8db1?width=750&format=jpeg&auto=webp);
+    background-size: cover ;
+    position: relative;
+    height: 258px;
+
+
+}
+
+
+
+.all-items  .item  .image .price {
+    position: absolute;
+    padding: 5px 10px;
+    background: #fff;
+    color: green;
+    border-radius: 3px ;
+    margin: 10px 0px 0 10px;
+ 
+ 
+ }
+
+ .all-items  .item  .details  {
+     padding: 10px;
+
+ }
+
+ .all-items  .item  .details h5 {
+     margin: 0 0 5px;
+    color: #27292d;
+    font-size: .9rem
+}
+
+
+ .all-items  .item  .details h6 {
+     color: #565d68;
+     font-size: .7rem
+ }
