@@ -295,28 +295,77 @@ module.exports = [
 
             },
             {
-                name: "business/mgmt",
-                slug: "business-mgmt",
+                name: "labor",
+                slug: "labor",
 
             },
             {
-                name: "custormer service",
-                slug: "customer-service",
+                name: "talent",
+                slug: "talent",
 
             },
             {
-                name: "education",
-                slug: "education",
+                name: "writing",
+                slug: "writing",
+
+            },
+
+        
+        ],
+
+        title: "discussion forms",
+
+        listings: [ 
+            {
+                name: "android",
+                slug: "android",
+
+            },
+            {
+                name: "apple",
+                slug: "apple",
+
+            },
+            {
+                name: "arts",
+                slug: "arts"
+
+            },
+            {
+                name: "atheist",
+                slug: "atheist",
 
             },
 
             {
-                name: "etc / misc",
-                slug: "etc-misc",
+                name: "autos ",
+                slug: "autos",
+
+            },
+            {
+                name: "beauty",
+                slug: "beauty",
+
+            },
+            {
+                name: "bikes",
+                slug: "bikes",
+
+            },
+            {
+                name: "celebs",
+                slug: "celebs",
+
+            },
+
+            {
+                name: "comp",
+                slug: "comp",
 
             }
         
         ]
+        
         
         
         
